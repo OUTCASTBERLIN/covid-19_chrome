@@ -1,0 +1,59 @@
+<!doctype html>
+<html>  
+    <head>   
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Covid-19</title> 
+        <link href="assets/css/jquery-countryselector.min.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    </head>  
+    <body>   
+        <div id="main" class="tabs">            
+            <h1>Stay Safe, Stay Home</h1>   
+            <ul class="tabs-list">
+                <li class="active"><a href="#tab1">CASES</a></li>
+                <li ><a href="#tab2">Tips</a></li>
+                <li ><a href="#tab3">Symptoms</a></li>
+                <li ><a href="#tab4">About</a></li>
+             </ul>
+            
+            <div id="tab1" class='tab active'>
+                <select id="countrylist" value="DEU" data-role="country-selector"></select>
+                <div id="country"></div>
+                <div id="world"></div>
+            </div>
+
+            <div id="tab2" class="tab">
+                <h4>Tips from the World Health Organization:</h4>
+                <ul>
+                    <li>Wash your hands frequently.</li>
+                    <li>Avoid touching your face.</li>
+                    <li>Sneeze and cough into a tissue or your elbow.</li>
+                    <li>Avoid crowds and standing near others.</li>
+                    <li>Stay home if you think you might be sick.</li>
+                    <li>If you have a fever, cough, or difficulty breathing, follow advice given by your government's health authority.</li>
+                </ul>
+            </div>
+
+            <div id="tab3" class="tab">
+                <h4>COVID-19 health information</h4>
+                <ul>
+                    <li>Symptoms: fever, cough, shortness of breath.</li>
+                    <li>Complications: pneumonia, Acute respiratory distress syndrome (ARDS), kidney failure.</li>
+                    <li>Risk Factors: age, serious underlying medical conditions (e.g. heart disease, diabetes, lung disease, etc).</li>
+                </ul>
+            </div>
+
+            <div id="tab4" class="tab">
+                <h4>Hi, I’m Roel. Nice to meet you.</h4>
+                I design and code beautifully simple things, and I love what I do.
+                <br/><br/>
+                I'm a bit of a digital product junky. Over the years, I've used hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun challenge to try designing and building my own.
+            </div>
+        </div>
+         <script type="text/javascript" src="assets/js/jquery.countryselector.es5.min.js"></script>
+         <script type="text/javascript" src="assets/js/popup.js"></script> 
+    </body>
+</html>
